@@ -48,16 +48,6 @@
 			path = TriviaP5;
 			sourceTree = "<group>";
 		};
-		43114A942DAF240D0007E802 /* TriviaP5Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TriviaP5Tests;
-			sourceTree = "<group>";
-		};
-		43114A9E2DAF240D0007E802 /* TriviaP5UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TriviaP5UITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				43114A7D2DAF240C0007E802 /* TriviaP5 */,
-				43114A942DAF240D0007E802 /* TriviaP5Tests */,
-				43114A9E2DAF240D0007E802 /* TriviaP5UITests */,
 				43114A7C2DAF240C0007E802 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				43114A932DAF240D0007E802 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				43114A942DAF240D0007E802 /* TriviaP5Tests */,
-			);
 			name = TriviaP5Tests;
 			packageProductDependencies = (
 			);
@@ -166,9 +151,6 @@
 			dependencies = (
 				43114A9D2DAF240D0007E802 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				43114A9E2DAF240D0007E802 /* TriviaP5UITests */,
-			);
 			name = TriviaP5UITests;
 			packageProductDependencies = (
 			);
@@ -188,6 +170,7 @@
 				TargetAttributes = {
 					43114A7A2DAF240C0007E802 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 					43114A902DAF240D0007E802 = {
 						CreatedOnToolsVersion = 16.2;
@@ -287,13 +270,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y424MCHV53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TriviaP5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = varelaJulio.TriviaP5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,13 +299,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y424MCHV53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TriviaP5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
